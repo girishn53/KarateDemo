@@ -31,7 +31,7 @@ Feature: Calculates the bmi and return the scale
 
     Examples: 
       | header1                                            | header2                                       | weight | height | status |
-      | null                                               | body-mass-index-bmi-calculator.p.rapidapi.com |     20 |     68 |    403 |
+      | null                                               | body-mass-index-bmi-calculator.p.rapidapi.com |     20 |     68 |    404 |
       | 90c7289887mshb28ec34d1e725f9p1e2b2bjsn2750baf594bd | null                                          |     20 |     68 |    404 |
       | 90c7289887mshb28ec34d1e725f9p1e2b2bjsn2750baf594bd | body-mass-index-bmi-calculator.p.rapidapi.com |     20 |     68 |    200 |
 
